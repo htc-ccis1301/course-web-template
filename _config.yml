@@ -7,28 +7,29 @@
 # _data/textbooks.yml
 # _data/instructors.yml
 # _data/student_instructors.yml
+#
 ###############################################################################
 
 # Site settings - affect how your site is published
-baseurl: "/course-web-template" # the subpath of your site, e.g. /blog
-url: "https://mbmosman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/course-web-template"       ##### Change this for each semester #####
+url: "https://htc-ccis1301.github.io"
 
-# Color scheme based on http://flatuicolors.com/.
-# Possible values:
+# Color themes. Possible values:
 #    - silver          - gold            - midnight
 #    - green           - turquoise       - blue
 #    - purple          - orange          - red
-theme_color: blue
+theme_color: midnight
 ###############################################################################
 
 # Google Calendar Settings
-googleCalendarApiKey: 'Update Me'
-googleCollegeCalendarId: 'Update Me'
-googleCourseCalendarId: 'Update Me'
+googleCalendarApiKey: 'AIzaSyBfRSj-878d-mwb0E1jIN0qVDzmQXJhuhQ'
+googleCollegeCalendarId: 'pam2qc7v8m3eqordq9llu4b844@group.calendar.google.com'
+googleCourseCalendarId: '8g28fk9ir2radvqoeq1n68sk1s@group.calendar.google.com'
 ###############################################################################
 
 # Google Analytics Tracking
-google_analytics_tracking_id: 'Update Me'
+google_analytics_tracking_id: "UA-63189236-5"
+
 
 # The information below should not need to be modified.
 ###############################################################################
@@ -39,6 +40,7 @@ highlighter: rouge
 gems:
   - jekyll-feed
   - jekyll-gist
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
